@@ -7,6 +7,7 @@ Vue.config.productionTip = false;
 
 new Vue({
   router,
-  store,
+  // 在根实例中注册store选项，该store实例会注入到根组件下的所有子组件。子组件能通过this.$store访问。
+  store, 
   render: h => h(App)
 }).$mount("#app");
