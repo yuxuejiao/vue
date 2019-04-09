@@ -1,39 +1,14 @@
-# vue-demo
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### vue-cli3
+* 安装cli插件
+`npm install -g @vue/cli`
+* 创建一个项目
+`vue create project-name`
+* 在已创建的项目中添加插件：
+`vue add @vue/cli-plugin-*`
+在添加插件前，需要先提交所有的改动   
+* 删除插件
+`npm uninstall vue-cli-plugin-apollo -D`   
+除此之外，还需要手动改动相关文件，所以不建议删除插件。   
+* 图像化展示项目
+`vue ui `   
+页面展示空白，清缓存。
